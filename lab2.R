@@ -83,3 +83,14 @@ dataFrame<-data.frame(index, Name,marks)
 dataFrame
 write.csv(dataFrame, "dataFrame1.csv")
 write.table(dataFrame,"dataFrame2.txt")
+
+
+#functions
+function_01<-function(a,b){
+  y<-a+b
+  #print(y)
+  y
+}
+
+#calling the function
+function_01(4,6)
