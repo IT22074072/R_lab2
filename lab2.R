@@ -72,3 +72,14 @@ for(i in 1:10){
 data1<-read.csv("DATA 2.csv")
 fix("data1")
 data1
+
+
+#write data into a file
+index<-c(1,2,3)
+Name<-c("Jin", "RM","JK")
+marks<-c(56, 98, 73)
+
+dataFrame<-data.frame(index, Name,marks)
+dataFrame
+write.csv(dataFrame, "dataFrame1.csv")
+write.table(dataFrame,"dataFrame2.txt")
