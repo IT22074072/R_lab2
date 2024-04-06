@@ -65,3 +65,10 @@ while(i<6){
 for(i in 1:10){
   print(i)
 }
+
+
+#importing and exporting
+#csv and text file
+data1<-read.csv("DATA 2.csv")
+fix("data1")
+data1
