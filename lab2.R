@@ -51,5 +51,17 @@ if(z>0){
 }
 
 
+#iterations
+#while loop(1,2,3,4,5)
 
+i<-1
+while(i<6){
+  print(i)
+  i=i+1
+}
 
+#for loop
+7:9 #(7,8,9)
+for(i in 1:10){
+  print(i)
+}
